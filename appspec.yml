@@ -9,6 +9,7 @@ files:
 hooks:
   BeforeInstall:
     - location: scripts/stop_apache.sh
+      location: scripts/codedeploy_agentinstall
       runas: root
   ApplicationStart:
     - location: scripts/changepermission.sh
