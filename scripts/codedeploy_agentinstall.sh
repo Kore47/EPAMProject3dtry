@@ -1,3 +1,4 @@
+sudo su
 yum install ruby
 yum install wget
 cd /home/ec2-user
